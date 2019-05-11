@@ -39,8 +39,8 @@
 #include <OpenGL/gl.h>
 #else
 #include <GL/gl.h>
-#endif
 #include <GL/glext.h>
+#endif
 
 namespace skui::graphics
 {

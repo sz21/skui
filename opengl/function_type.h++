@@ -52,8 +52,8 @@
 //#include <OpenGL/gl3ext.h>
 #else
 #include <GL/gl.h>
-#endif
 #include <GL/glext.h>
+#endif
 
 #define DEFINE_OPENGL_FUNCTION_TYPE(function) \
   template<> struct function_type<function> \
